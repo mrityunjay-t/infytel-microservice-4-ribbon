@@ -13,7 +13,7 @@ Send a post request to http://URL/actuator/refresh
 Example for CustomerMS in this project:
 A POST request to: http://localhost:8200/actuator/refresh
 
-Ribbon Application: We will be using ribbon for FriendFamilyMS on port 8300 and 8301 for load balancing with Eureka.
+Ribbon Application: We will be using ribbon for FriendFamilyMS on port 8300 and 8301 for load balancing WITHOUT Eureka.
 
 We have four microservices CallDetailsMS, CustomerMS, FriendsFamilyMS and PlanMS.
 
